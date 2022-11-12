@@ -11,6 +11,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@dbml/core": "^2.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
