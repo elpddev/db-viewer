@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "format": "prettier -w ./src",
     "preview": "vite preview",
     "prepare": "husky install"
   },
