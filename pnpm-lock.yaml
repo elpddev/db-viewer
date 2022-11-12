@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@dbml/core': ^2.4.4
   '@types/react': ^18.0.24
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^2.2.0
@@ -12,6 +13,7 @@ specifiers:
   vite: ^3.2.3
 
 dependencies:
+  '@dbml/core': 2.4.4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -292,6 +294,14 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
     dev: true
+
+  /@dbml/core/2.4.4:
+    resolution: {integrity: sha512-GWhJ8aAQnSM1A5pefJAWKrtQ3AbrVlU/apaRmCHveJW3rQCVk6S/JIjpti4gWYBOVqTBshVNs9jDaDDPoGaNjg==}
+    dependencies:
+      lodash: 4.17.21
+      parsimmon: 1.18.1
+      pluralize: 8.0.0
+    dev: false
 
   /@esbuild/android-arm/0.15.13:
     resolution: {integrity: sha512-RY2fVI8O0iFUNvZirXaQ1vMvK0xhCcl0gqRj74Z6yEiO1zAUa7hbsdwZM1kzqbxHK7LFyMizipfXT3JME+12Hw==}
@@ -735,6 +745,10 @@ packages:
     hasBin: true
     dev: true
 
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
@@ -763,6 +777,10 @@ packages:
     resolution: {integrity: sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==}
     dev: true
 
+  /parsimmon/1.18.1:
+    resolution: {integrity: sha512-u7p959wLfGAhJpSDJVYXoyMCXWYwHia78HhRBWqk7AIbxdmlrfdp5wX0l3xv/iTSH5HvhN9K7o26hwwpgS5Nmw==}
+    dev: false
+
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: true
@@ -770,6 +788,11 @@ packages:
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
+
+  /pluralize/8.0.0:
+    resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
+    engines: {node: '>=4'}
+    dev: false
 
   /postcss/8.4.19:
     resolution: {integrity: sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==}
